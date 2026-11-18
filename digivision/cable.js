@@ -35,6 +35,16 @@ function getchinfo() {1
         ["Comedy Central", "Comedy Shows"],
         ["Cartoon Network", "Cartoons"],
         ["AWE", "World Telivision"],
+        ["TVP1", "Treść ogólna"],
+        ["TVP2", "Programy rozrywkowe"],
+        ["TVP Info", "Wiadomości 24/7"],
+        ["TVP Sports", "Treści sportowe"],
+        ["TVN", "Seriale i filmy"],
+        ["Polsat", "Seriale, programy rozrywkowe, i filmy"],
+        ["Polsat News", "Wiadomości 24/7"],
+        ["TV4", "Seriale i filmy"],
+        ["TV Pulse", "programy rozrywkowe i filmy"],
+        ["4FUN", "Teledyski"],
         ["Channel Name", "Channel Description"],
     ];
     return chinfodb;
