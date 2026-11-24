@@ -60,26 +60,26 @@ function getwebchannels() {
         ["index2.html#https://tvsen3.aynaott.com/5fUWDMxZ/index.m3u8", "https://back-piestech28.github.io/digivision/ch6.png"],
         ["index2.html#https://turnerlive.warnermediacdn.com/hls/live/2023160/tooneast/noslate/VIDEO_3_1928000.m3u8", "https://back-piestech28.github.io/digivision/ch7.png"],
         ["index2.html#https://a-cdn.herringnetwork.com/affiliate/awee/playlist.m3u8", "https://back-piestech28.github.io/digivision/ch8.png"],
-        ["index3.html#https://streaming-live.rtp.pt/liverepeater/rtp1HD.smil/playlist.m3u8", "https://back-piestech28.github.io/digivision/ch9.png"],
-        ["index3.html#https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8", "https://back-piestech28.github.io/digivision/ch10.png"],
-        ["index3.html#https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8", "https://back-piestech28.github.io/digivision/ch11.png"],
+        ["index2.html#https://streaming-live.rtp.pt/liverepeater/rtp1HD.smil/playlist.m3u8", "https://back-piestech28.github.io/digivision/ch9.png"],
+        ["index2.html#https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8", "https://back-piestech28.github.io/digivision/ch10.png"],
+        ["index2.html#https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8", "https://back-piestech28.github.io/digivision/ch11.png"],
         ["index2.html#https://sic.pt/direto", "https://back-piestech28.github.io/digivision/ch12.png"],
-        ["index3.html#tvi", "https://back-piestech28.github.io/digivision/ch13.png"],
-        ["index3.html#tvific", "https://back-piestech28.github.io/digivision/ch14.png"],
-        ["index3.html#tvirel", "https://back-piestech28.github.io/digivision/ch15.png"],
-        ["index3.html#tvivps", "https://back-piestech28.github.io/digivision/ch16.png"],
+        ["index2.html#tvi", "https://back-piestech28.github.io/digivision/ch13.png"],
+        ["index2.html#tvific", "https://back-piestech28.github.io/digivision/ch14.png"],
+        ["index2.html#tvirel", "https://back-piestech28.github.io/digivision/ch15.png"],
+        ["index2.html#tvivps", "https://back-piestech28.github.io/digivision/ch16.png"],
     ];
     tviurl = tviget(1);
-    tviurl = "index3.html#" + tviurl;
+    tviurl = "index2.html#" + tviurl;
     channeldb[12][0] = tviurl;
     tvificurl = tviget(2);
-    tvificurl = "index3.html#" + tvificurl;
+    tvificurl = "index2.html#" + tvificurl;
     channeldb[13][0] = tvificurl;
     tvirelurl = tviget(3);
-    tvirelurl = "index3.html#" + tvirelurl;
+    tvirelurl = "index2.html#" + tvirelurl;
     channeldb[14][0] = tvirelurl;
     tvivmsurl = tviget(4);
-    tvivmsurl = "index3.html#" + tvivmsurl;
+    tvivmsurl = "index2.html#" + tvivmsurl;
     channeldb[15][0] = tvivmsurl;
     return channeldb;
 }
