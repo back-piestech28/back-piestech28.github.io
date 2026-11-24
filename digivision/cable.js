@@ -45,6 +45,14 @@ function getchinfo() {1
         ["Comedy Central", "Comedy Shows"],
         ["Cartoon Network", "Cartoons"],
         ["AWE", "World Telivision"],
+        ["RTP 1", "Conteúdo geral"],
+        ["RTP 2", "Conteúdo variado"],
+        ["RTP Notícias", "Notícias 24 horas por dia, 7 dias por semana."],
+        ["SIC", "Telenovelas"],
+        ["TVI", "Telenovelas e programas de reality show"],
+        ["TVI Ficção", "Telenovelas"],
+        ["TVI Reality", "programas de reality show"],
+        ["V+", "Telenovelas e programas de reality show"],
         ["Channel Name", "Channel Description"],
     ];
     return chinfodb;
