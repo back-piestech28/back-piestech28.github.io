@@ -1,4 +1,4 @@
-﻿o2000function getchannels() {
+﻿function getchannels() {
     let channeldb = [
         ["index4.html", "NULL"],
         ["index2.html#https://www.wwlp.com/watch-live/", "https://back-pestech28.github.io/digivision/ch1.png"],
