@@ -9,28 +9,30 @@
         ["index3.html#https://tvsen3.aynaott.com/5fUWDMxZ/index.m3u8", "https://back-piestech28.github.io/digivision/ch6.png"],
         ["index3.html#https://turnerlive.warnermediacdn.com/hls/live/2023160/tooneast/noslate/VIDEO_3_1928000.m3u8", "https://back-piestech28.github.io/digivision/ch7.png"],
         ["index3.html#https://a-cdn.herringnetwork.com/affiliate/awee/playlist.m3u8", "https://back-piestech28.github.io/digivision/ch8.png"],
-        ["index3.html#https://streaming-live.rtp.pt/liverepeater/rtp1HD.smil/playlist.m3u8", "https://back-piestech28.github.io/digivision/ch9.png"],
-        ["index3.html#https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8", "https://back-piestech28.github.io/digivision/ch10.png"],
-        ["index3.html#https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8", "https://back-piestech28.github.io/digivision/ch11.png"],
-        ["index2.html#https://sic.pt/direto", "https://back-piestech28.github.io/digivision/ch12.png"],
-        ["index3.html#tvi", "https://back-piestech28.github.io/digivision/ch13.png"],
-        ["index3.html#tvific", "https://back-piestech28.github.io/digivision/ch14.png"],
-        ["index3.html#tvirel", "https://back-piestech28.github.io/digivision/ch15.png"],
-        ["index3.html#tvivps", "https://back-piestech28.github.io/digivision/ch16.png"],
+        ["index2.html#https://www.stvr.sk/embed/live/1?embed_page_category=televizia%3Blive-1%3B&ima_enabled=1", "https://back-piestech28.github.io/digivision/ch9.png"],
+        ["index2.html#https://www.stvr.sk/embed/live/2?embed_page_category=televizia%3Blive-2%3B&ima_enabled=1", "https://back-piestech28.github.io/digivision/ch10.png"],
+        ["index2.html#https://www.stvr.sk/embed/live/1?embed_page_category=televizia%3Blive-1%3B&ima_enabled=1", "https://back-piestech28.github.io/digivision/ch11.png"],
+        ["index2.html#https://www.stvr.sk/embed/live/15?embed_page_category=televizia%3Bsport%3B&ima_enabled=1", "https://back-piestech28.github.io/digivision/ch12.png"],
+        ["index2.html#https://media.joj.sk/embed/3Yz1gBQeKTs?autoplay=1", "https://back-piestech28.github.io/digivision/ch13.png"],
+        ["index2.html#https://media.joj.sk/embed/DKZwKhUlV3i?autoplay=1", "https://back-piestech28.github.io/digivision/ch14.png"],
+        ["index2.html#https://media.joj.sk/embed/3al7RoqzT3y?autoplay=1", "https://back-piestech28.github.io/digivision/ch15.png"],
+        ["index3.html#https://live.cdn.joj.sk/live/andromeda/joj_sport-1080.m3u8", "https://back-piestech28.github.io/digivision/ch16.png"],
+        ["index3.html#https://live.cdn.joj.sk/live/andromeda/joj_news-1080.m3u8", "https://back-piestech28.github.io/digivision/ch17.png"],
+        ["index3.html#https://live.cdn.joj.sk/live/andromeda/family-720.m3u8", "https://back-piestech28.github.io/digivision/ch18.png"],
+        ["index3.html#https://live.cdn.joj.sk/live/andromeda/cinema-720.m3u8", "https://back-piestech28.github.io/digivision/ch19.png"],
+        ["index3.html#https://live.cdn.joj.sk/live/andromeda/jojko-1080.m3u8", "https://back-piestech28.github.io/digivision/ch20.png"],
+        ["index2.html#https://media.cms.markiza.sk/embed/markiza-live?autoplay=any", "https://back-piestech28.github.io/digivision/ch21.png"],
+        ["index2.html#https://media.cms.markiza.sk/embed/doma-live?autoplay=any", "https://back-piestech28.github.io/digivision/ch22.png"],
+        ["index2.html#https://media.cms.markiza.sk/embed/dajto-live?autoplay=any", "https://back-piestech28.github.io/digivision/ch23.png"],
+        ["index2.html#https://media.cms.markiza.sk/embed/krimi-live?autoplay=any", "https://back-piestech28.github.io/digivision/ch24.png"],
+        ["index2.html#https://media.cms.markiza.sk/embed/klasik-live?autoplay=any", "https://back-piestech28.github.io/digivision/ch25.png"],
+        ["index2.html#https://media.cms.markiza.sk/embed/DsGMde5p69Z", "https://back-piestech28.github.io/digivision/ch26.png"],
+        ["index3.html#https://live.cdn.joj.sk/live/andromeda/cs_history-1080.m3u8", "https://back-piestech28.github.io/digivision/ch27.png"],
+        ["index3.html#https://live.cdn.joj.sk/live/andromeda/cs_film-1080.m3u8", "https://back-piestech28.github.io/digivision/ch28.png"],
+        ["index3.html#https://live.cdn.joj.sk/live/andromeda/cs_mystery-1080.m3u8", "https://back-piestech28.github.io/digivision/ch29.png"],
+        ["index2.html#https://www.ta3.com/live", "https://back-piestech28.github.io/digivision/ch30.png"],
         ["index.html", "NULL"],
     ];
-    tviurl = tviget(1);
-    tviurl = "index3.html#" + tviurl;
-    channeldb[13][0] = tviurl;
-    tvificurl = tviget(2);
-    tvificurl = "index3.html#" + tvificurl;
-    channeldb[14][0] = tvificurl;
-    tvirelurl = tviget(3);
-    tvirelurl = "index3.html#" + tvirelurl;
-    channeldb[15][0] = tvirelurl;
-    tvivmsurl = tviget(4);
-    tvivmsurl = "index3.html#" + tvivmsurl;
-    channeldb[16][0] = tvivmsurl;
     return channeldb;
 }
 
@@ -45,14 +47,28 @@ function getchinfo() {1
         ["Comedy Central", "Comedy Shows"],
         ["Cartoon Network", "Cartoons"],
         ["AWE", "World Telivision"],
-        ["RTP 1", "Conteúdo geral"],
-        ["RTP 2", "Conteúdo variado"],
-        ["RTP Notícias", "Notícias 24 horas por dia, 7 dias por semana."],
-        ["SIC", "Telenovelas"],
-        ["TVI", "Telenovelas e programas de reality show"],
-        ["TVI Ficção", "Telenovelas"],
-        ["TVI Reality", "programas de reality show"],
-        ["V+", "Telenovelas e programas de reality show"],
+        ["Jednotka", "Všeobecný obsah"],
+        ["Dvojka", "Všeobecný a vzdelávací obsah"],
+        [":24", "Správy 24 hodín denne, 7 dní v týždni"],
+        [":ŠPORT", "Šport 24 hodín denne, 7 dní v týždni"],
+        ["JOJ", "Televízne programy a filmy"],
+        ["JOJ Plus", "Americké televízne relácie"],
+        ["JOJ WAU", "Prémiový televízny kanál"],
+        ["JOJ SPORT", "Šport 24 hodín denne, 7 dní v týždni"],
+        ["JOJ 24", "Správy 24 hodín denne, 7 dní v týždni"],
+        ["JOJ Family", "Rodinné relácie a filmy"],
+        ["JOJ Cinema", "Filmy"],
+        ["JOJKO", "Kreslené filmy"],
+        ["Markíza", "Rodinný obsah"],
+        ["Doma", "Televízne relácie pre ženy"],
+        ["Dajto", "Televízne relácie pre mužov"],
+        ["Krimi", "Kriminálne seriály"],
+        ["Klasik", "Klasické televízne relácie"],
+        ["TN Live", "Správy 24 hodín denne, 7 dní v týždni"],
+        ["CS History", "Historický kanál"],
+        ["CS Film", "Filmový kanál"],
+        ["CS Mystery", "Mysteriózne filmy"],
+        ["Ta3", "Správy 24 hodín denne, 7 dní v týždni"],
         ["Channel Name", "Channel Description"],
     ];
     return chinfodb;
@@ -68,99 +84,28 @@ function getwebchannels() {
         ["index2.html#https://tvsen3.aynaott.com/5fUWDMxZ/index.m3u8", "https://back-piestech28.github.io/digivision/ch6.png"],
         ["index2.html#https://turnerlive.warnermediacdn.com/hls/live/2023160/tooneast/noslate/VIDEO_3_1928000.m3u8", "https://back-piestech28.github.io/digivision/ch7.png"],
         ["index2.html#https://a-cdn.herringnetwork.com/affiliate/awee/playlist.m3u8", "https://back-piestech28.github.io/digivision/ch8.png"],
-        ["index2.html#https://streaming-live.rtp.pt/liverepeater/rtp1HD.smil/playlist.m3u8", "https://back-piestech28.github.io/digivision/ch9.png"],
-        ["index2.html#https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8", "https://back-piestech28.github.io/digivision/ch10.png"],
-        ["index2.html#https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8", "https://back-piestech28.github.io/digivision/ch11.png"],
-        ["index2.html#https://sic.pt/direto", "https://back-piestech28.github.io/digivision/ch12.png"],
-        ["index2.html#tvi", "https://back-piestech28.github.io/digivision/ch13.png"],
-        ["index2.html#tvific", "https://back-piestech28.github.io/digivision/ch14.png"],
-        ["index2.html#tvirel", "https://back-piestech28.github.io/digivision/ch15.png"],
-        ["index2.html#tvivps", "https://back-piestech28.github.io/digivision/ch16.png"],
+        ["https://www.stvr.sk/embed/live/1?embed_page_category=televizia%3Blive-1%3B&ima_enabled=1", "https://back-piestech28.github.io/digivision/ch9.png"],
+        ["https://www.stvr.sk/embed/live/2?embed_page_category=televizia%3Blive-2%3B&ima_enabled=1", "https://back-piestech28.github.io/digivision/ch10.png"],
+        ["https://www.stvr.sk/embed/live/1?embed_page_category=televizia%3Blive-1%3B&ima_enabled=1", "https://back-piestech28.github.io/digivision/ch11.png"],
+        ["https://www.stvr.sk/embed/live/15?embed_page_category=televizia%3Bsport%3B&ima_enabled=1", "https://back-piestech28.github.io/digivision/ch12.png"],
+        ["https://media.joj.sk/embed/3Yz1gBQeKTs?autoplay=1", "https://back-piestech28.github.io/digivision/ch13.png"],
+        ["https://media.joj.sk/embed/DKZwKhUlV3i?autoplay=1", "https://back-piestech28.github.io/digivision/ch14.png"],
+        ["https://media.joj.sk/embed/3al7RoqzT3y?autoplay=1", "https://back-piestech28.github.io/digivision/ch15.png"],
+        ["index2.html#https://live.cdn.joj.sk/live/andromeda/joj_sport-1080.m3u8", "https://back-piestech28.github.io/digivision/ch16.png"],
+        ["index2.html#https://live.cdn.joj.sk/live/andromeda/joj_news-1080.m3u8", "https://back-piestech28.github.io/digivision/ch17.png"],
+        ["index2.html#https://live.cdn.joj.sk/live/andromeda/family-720.m3u8", "https://back-piestech28.github.io/digivision/ch18.png"],
+        ["index2.html#https://live.cdn.joj.sk/live/andromeda/cinema-720.m3u8", "https://back-piestech28.github.io/digivision/ch19.png"],
+        ["index2.html#https://live.cdn.joj.sk/live/andromeda/jojko-1080.m3u8", "https://back-piestech28.github.io/digivision/ch20.png"],
+        ["https://media.cms.markiza.sk/embed/markiza-live?autoplay=any", "https://back-piestech28.github.io/digivision/ch21.png"],
+        ["https://media.cms.markiza.sk/embed/doma-live?autoplay=any", "https://back-piestech28.github.io/digivision/ch22.png"],
+        ["https://media.cms.markiza.sk/embed/dajto-live?autoplay=any", "https://back-piestech28.github.io/digivision/ch23.png"],
+        ["https://media.cms.markiza.sk/embed/krimi-live?autoplay=any", "https://back-piestech28.github.io/digivision/ch24.png"],
+        ["https://media.cms.markiza.sk/embed/klasik-live?autoplay=any", "https://back-piestech28.github.io/digivision/ch25.png"],
+        ["https://media.cms.markiza.sk/embed/DsGMde5p69Z", "https://back-piestech28.github.io/digivision/ch26.png"],
+        ["index2.html#https://live.cdn.joj.sk/live/andromeda/cs_history-1080.m3u8", "https://back-piestech28.github.io/digivision/ch27.png"],
+        ["index2.html#https://live.cdn.joj.sk/live/andromeda/cs_film-1080.m3u8", "https://back-piestech28.github.io/digivision/ch28.png"],
+        ["index2.html#https://live.cdn.joj.sk/live/andromeda/cs_mystery-1080.m3u8", "https://back-piestech28.github.io/digivision/ch29.png"],
+        ["https://www.ta3.com/live", "https://back-piestech28.github.io/digivision/ch30.png"],
     ];
-    tviurl = tviget(1);
-    tviurl = "index2.html#" + tviurl;
-    channeldb[12][0] = tviurl;
-    tvificurl = tviget(2);
-    tvificurl = "index2.html#" + tvificurl;
-    channeldb[13][0] = tvificurl;
-    tvirelurl = tviget(3);
-    tvirelurl = "index2.html#" + tvirelurl;
-    channeldb[14][0] = tvirelurl;
-    tvivmsurl = tviget(4);
-    tvivmsurl = "index2.html#" + tvivmsurl;
-    channeldb[15][0] = tvivmsurl;
     return channeldb;
-}
-
-
-
-function tviget(flagger) {
-    let url = "";
-    if (flagger == 1) {
-        url = "https://raw.githubusercontent.com/LITUATUI/M3UPT/refs/heads/main/M3U/TVI.m3u8";
-    }
-    if (flagger == 2) {
-        url = "https://raw.githubusercontent.com/LITUATUI/M3UPT/refs/heads/main/M3U/TVI_Ficcao.m3u8";
-    }
-    if (flagger == 3) {
-        url = "https://raw.githubusercontent.com/LITUATUI/M3UPT/refs/heads/main/M3U/TVI_Reality.m3u8";
-    }
-    if (flagger == 4) {
-        url = "https://raw.githubusercontent.com/LITUATUI/M3UPT/refs/heads/main/M3U/Vmais_TVI.m3u8";
-    }
-    if (flagger == 5) {
-        url = "https://raw.githubusercontent.com/LITUATUI/M3UPT/refs/heads/main/M3U/CNN_Portugal.m3u8";
-    }
-    
-    try {
-        xhr = new XMLHttpRequest();
-        xhr.open("GET", url, false); 
-        xhr.send(null);
-function tviget(flagger) {
-    let url = "";
-    if (flagger == 1) {
-        url = "https://raw.githubusercontent.com/LITUATUI/M3UPT/refs/heads/main/M3U/TVI.m3u8";
-    }
-    if (flagger == 2) {
-        url = "https://raw.githubusercontent.com/LITUATUI/M3UPT/refs/heads/main/M3U/TVI_Ficcao.m3u8";
-    }
-    if (flagger == 3) {
-        url = "https://raw.githubusercontent.com/LITUATUI/M3UPT/refs/heads/main/M3U/TVI_Reality.m3u8";
-    }
-    if (flagger == 4) {
-        url = "https://raw.githubusercontent.com/LITUATUI/M3UPT/refs/heads/main/M3U/Vmais_TVI.m3u8";
-    }
-    if (flagger == 5) {
-        url = "https://raw.githubusercontent.com/LITUATUI/M3UPT/refs/heads/main/M3U/CNN_Portugal.m3u8";
-    }
-    
-    try {
-        xhr = new XMLHttpRequest();
-        xhr.open("GET", url, false); 
-        xhr.send(null);
-
-        if (xhr.status === 200) {
-            match = xhr.responseText.match(/https:\/\/\S+/);
-            if (match) {
-                return match[0];
-            }
-        }
-    } catch (error) {
-        console.error("Failed to fetch GitHub file synchronously:", error);
-    }
-    
-    return null;
-}
-
-        if (xhr.status === 200) {
-            match = xhr.responseText.match(/https:\/\/\S+/);
-            if (match) {
-                return match[0];
-            }
-        }
-    } catch (error) {
-        console.error("Failed to fetch GitHub file synchronously:", error);
-    }
-    
-    return null;
 }
